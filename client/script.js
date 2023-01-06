@@ -38,6 +38,8 @@ function generateUniqueId(){
   return `id-${timestamp}-${hexadecimalString}`;
 }
 
+// chat stripe
+
 function chatStripe(isAi,value,uniqueId){
   return(
     `<div class="wrapper ${isAi && 'ai'}">
